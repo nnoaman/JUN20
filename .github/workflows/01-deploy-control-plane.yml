@@ -78,7 +78,6 @@ jobs:
           client-id: ${{ vars.AZURE_MANAGED_IDENTITY_ID }}
           tenant-id: ${{ vars.AZURE_TENANT_ID }}
           subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
-          allow-no-subscriptions: true
 
       - name: Prepare Control Plane
         id: prepare_control_plane
